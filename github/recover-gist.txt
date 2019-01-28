@@ -1,0 +1,7 @@
+If the deleted gist was public, search for the user in the site admin dashboard, select Content in the top right, then select Archived public gists on the left. Select the gist you'd like to restore and then click the Restore this gist button.
+
+If the gist is secret, you will need the developer and gist repository name to restore it. The names are the last two parts of the secret gist's URL path. Browse to:
+
+https://[ghes-hostname]/stafftools/users/[user]/gists/[gist-repo-name]
+Scroll down to the danger zone section and click the Restore this gist button.
+
