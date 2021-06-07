@@ -1,0 +1,18 @@
+# List all branches
+git remote show origin
+
+
+# List all tags
+git tag
+
+# Clean up force pushed repo
+git gc --prune=all
+
+# Save credentials with OS X Keychain
+git config --global credential.helper osxkeychain
+
+# Find who created the branch, not very reliable
+git for-each-ref --format='%(committerdate) %09 %(authorname) %09 %(refname)' 
+
+# Apply patch from one repo to another
+/path/to/2 $ git --git-dir=/path/to/1/.git format-patch --stdout sha1^..sha1 | git am

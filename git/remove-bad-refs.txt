@@ -1,0 +1,6 @@
+
+# This is useful when bad branch name starts like refs/
+1. use 'git show-ref' to find the branch
+2. To delete: 
+git update-ref -d <bad branch name>
+

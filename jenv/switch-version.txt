@@ -1,0 +1,4 @@
+
+jenv shell 1.8 
+
+jenv enable-plugin maven 
